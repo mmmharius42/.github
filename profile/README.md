@@ -21,7 +21,7 @@
 ## 🎯 **À propos de cette organisation**
 
 Cette organisation regroupe **l'intégralité de mes projets** réalisés à l'**École 42 Le Havre**.  
-Chaque repository représente un projet du **Tronc Commun** et documente mon parcours d'apprentissage.
+Chaque repository représente un projet du **Tronc Commun (Common Core)** et documente mon parcours d'apprentissage.
 
 </div>
 
@@ -29,59 +29,82 @@ Chaque repository représente un projet du **Tronc Commun** et documente mon par
 
 <div align="center">
 
-## 📚 **Projets par Catégorie**
+## 📚 **Projets par Milestone**
 
 </div>
 
-### 🔰 **Phase 1 : Fondamentaux (C)**
+### 🏊 **Phase 0 : Admission**
 
 | Projet | Description | Langage | Compétences |
 |--------|-------------|---------|-------------|
-| **[42_piscine](https://github.com/mmmharius42/42_piscine)** | Piscine de sélection - 26 jours intensifs de C | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Algorithmie, Shell |
+| **[42_piscine](https://github.com/mmmharius42/42_piscine)** | Piscine de sélection - 26 jours intensifs de C | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Algorithmie, Shell, Bases du C |
+
+---
+
+### 🎯 **Milestone 0 : Premiers pas**
+
+| Projet | Description | Langage | Compétences |
+|--------|-------------|---------|-------------|
 | **[42_libft](https://github.com/mmmharius42/42_libft)** | Bibliothèque C personnalisée - Recréation de fonctions standard | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Manipulation mémoire, Structures de données |
-| **[42_get_next_line](https://github.com/mmmharius42/42_get_next_line)** | Lecture ligne par ligne depuis un file descriptor | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Buffer, Gestion fichiers |
+
+---
+
+### 📖 **Milestone 1 : Fondations**
+
+| Projet | Description | Langage | Compétences |
+|--------|-------------|---------|-------------|
+| **[42_get_next_line](https://github.com/mmmharius42/42_get_next_line)** | Lecture ligne par ligne depuis un file descriptor | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Buffer, Gestion fichiers, Static variables |
 | **[42_ft_printf](https://github.com/mmmharius42/42_ft_printf)** | Recréation de la fonction printf | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Variadic functions, Parsing |
 
 ---
 
-### 🎮 **Phase 2 : Graphisme & Algorithmes**
+### 🚀 **Milestone 2 : Premiers défis**
 
 | Projet | Description | Langage | Compétences |
 |--------|-------------|---------|-------------|
-| **[42_so_long](https://github.com/mmmharius42/42_so_long)** | Jeu 2D avec MinilibX - Tile mapping & événements clavier | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Graphisme 2D, Game loop |
-| **[42_push_swap](https://github.com/mmmharius42/42_push_swap)** | Algorithme de tri avec 2 piles et opérations limitées | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Optimisation, Complexité |
-| **[42_cub3d](https://github.com/mmmharius42/42_cub3d)** | Moteur 3D avec raycasting (style Wolfenstein) | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Raycasting, Textures |
+| **[42_pipex](https://github.com/mmmharius42/42_pipex)** | Recréation des pipes Unix et redirection de commandes | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Pipes, Processus, Redirections |
+| **[42_push_swap](https://github.com/mmmharius42/42_push_swap)** | Algorithme de tri avec 2 piles et opérations limitées | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Optimisation, Complexité algorithmique |
+| **[42_so_long](https://github.com/mmmharius42/42_so_long)** | Jeu 2D avec MinilibX - Tile mapping & événements clavier | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Graphisme 2D, Game loop, Events |
 
 ---
 
-### 🔧 **Phase 3 : Système & Processus**
+### 🔥 **Milestone 3 : Système & Concurrence**
 
 | Projet | Description | Langage | Compétences |
 |--------|-------------|---------|-------------|
-| **[42_pipex](https://github.com/mmmharius42/42_pipex)** | Recréation des pipes Unix et redirection de commandes | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Pipes, Processus |
-| **[42_philosophers](https://github.com/mmmharius42/42_philosophers)** | Problème du dîner des philosophes - Threads & Mutexes | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Concurrence, Synchronisation |
-| **[42_minishell](https://github.com/mmmharius42/42_minishell)** | Shell Unix simplifié avec pipes, redirections et builtins | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Parsing, Signaux, Processus |
+| **[42_minishell](https://github.com/mmmharius42/42_minishell)** | Shell Unix simplifié avec pipes, redirections et builtins | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Parsing, Signaux, Processus, Fork/Exec |
+| **[42_philosophers](https://github.com/mmmharius42/42_philosophers)** | Problème du dîner des philosophes - Threads & Mutexes | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Concurrence, Synchronisation, Deadlocks |
 
 ---
 
-### 🏗️ **Phase 4 : Assembleur & Bas Niveau**
+### 🌟 **Milestone 4 : 3D & POO**
 
 | Projet | Description | Langage | Compétences |
 |--------|-------------|---------|-------------|
-| **[42_libasm](https://github.com/mmmharius42/42_libasm)** | Recréation de fonctions C en assembleur x64 | ![ASM](https://img.shields.io/badge/ASM-654FF0?style=flat&logo=assemblyscript&logoColor=white) | Assembleur, Registres |
-
----
-
-### 🧬 **Phase 5 : C++ & POO**
-
-| Projet | Description | Langage | Compétences |
-|--------|-------------|---------|-------------|
+| **[42_cub3d](https://github.com/mmmharius42/42_cub3d)** | Moteur 3D avec raycasting (style Wolfenstein 3D) | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | Raycasting, Textures, Mathématiques |
 | **[42_cpp00](https://github.com/mmmharius42/42_cpp00)** | Introduction C++ - Namespaces, classes, fonctions membres | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) | POO, Encapsulation |
-| **[42_cpp01](https://github.com/mmmharius42/42_cpp01)** | Allocation mémoire, références, pointeurs | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) | Mémoire, Références |
-| **[42_cpp02](https://github.com/mmmharius42/42_cpp02)** | Polymorphisme ad-hoc, surcharge d'opérateurs | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) | Opérateurs, Canonical form |
-| **[42_cpp03](https://github.com/mmmharius42/42_cpp03)** | Héritage | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) | Héritage, Hiérarchie |
-| **[42_cpp04](https://github.com/mmmharius42/42_cpp04)** | Polymorphisme par sous-typage, classes abstraites | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) | Virtualité, Interfaces |
-| **[42_cpp05](https://github.com/mmmharius42/42_cpp05)** | 🔄 **En cours** - Exceptions | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) | Try/Catch, Exceptions |
+| **[42_cpp01](https://github.com/mmmharius42/42_cpp01)** | Allocation mémoire, références, pointeurs | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) | Mémoire, Références, Pointeurs |
+| **[42_cpp02](https://github.com/mmmharius42/42_cpp02)** | Polymorphisme ad-hoc, surcharge d'opérateurs | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) | Opérateurs, Orthodox Canonical Form |
+| **[42_cpp03](https://github.com/mmmharius42/42_cpp03)** | Héritage | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) | Héritage, Hiérarchie de classes |
+| **[42_cpp04](https://github.com/mmmharius42/42_cpp04)** | Polymorphisme par sous-typage, classes abstraites | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) | Virtualité, Interfaces abstraites |
+
+---
+
+### 💎 **Milestone 5 : C++ Avancé**
+
+| Projet | Description | Langage | Compétences |
+|--------|-------------|---------|-------------|
+| **[42_cpp05](https://github.com/mmmharius42/42_cpp05)** | 🔄 **En cours** - Exceptions en C++ | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) | Try/Catch, Exception handling |
+
+---
+
+### 🔬 **Spécialisation : OS & Kernel** *(en avance sur le tronc commun)*
+
+| Projet | Description | Langage | Compétences |
+|--------|-------------|---------|-------------|
+| **[42_libasm](https://github.com/mmmharius42/42_libasm)** | Recréation de fonctions C en assembleur x64 | ![ASM](https://img.shields.io/badge/ASM-654FF0?style=flat&logo=assemblyscript&logoColor=white) | Assembleur x86-64, Registres, Syscalls |
+
+> 💡 **Note** : Ce projet fait partie de la spécialisation **OS & Kernel**, réalisé en parallèle du tronc commun pour approfondir les concepts bas niveau.
 
 ---
 
@@ -108,7 +131,7 @@ Chaque repository représente un projet du **Tronc Commun** et documente mon par
 
 ![Repos](https://img.shields.io/badge/Projets-18-58a6ff?style=for-the-badge)
 ![Langage Principal](https://img.shields.io/badge/Langage_Principal-C_&_C++-00599C?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-En_Progression-2ea043?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Milestone_5-2ea043?style=for-the-badge)
 
 </div>
 
@@ -119,10 +142,10 @@ Chaque repository représente un projet du **Tronc Commun** et documente mon par
 ## 🎯 **Prochains Objectifs**
 
 ```
-📋 cpp06-09          - Modules C++ avancés
-🌐 WEBSERV           - Serveur HTTP en C++
-🎮 FT_TRANSCENDENCE  - Projet web full-stack
-🚀 Inception         - DevOps & Docker
+📋 cpp06-09          - Modules C++ avancés (cast, templates, STL)
+🌐 WEBSERV           - Serveur HTTP en C++ (Milestone 6)
+🎮 FT_TRANSCENDENCE  - Projet web full-stack (Milestone 7)
+🐳 Inception         - Infrastructure Docker & Services
 ```
 
 </div>
