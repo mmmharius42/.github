@@ -98,7 +98,7 @@ Chaque repository représente un projet du **Tronc Commun (Common Core)** et doc
 
 ---
 
-### 🔬 **Spécialisation : OS & Kernel** *(en avance sur le tronc commun)*
+### 🔬 **Spécialisation : OS & Kernel** *(apres le tronc commun)*
 
 | Projet | Description | Langage | Compétences |
 |--------|-------------|---------|-------------|
